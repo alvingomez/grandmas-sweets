@@ -19,3 +19,18 @@ body {
 .navbar-toggler {
   outline: none! important
 }
+
+.toggler-icon {
+  font-size: 2.5rem;
+  color: var(--mainPink);
+}
+
+.nav-link {
+  color: var(--mainPink);
+  transition: all 1s ease-in-out;
+  font-size:1.5rem;
+}
+
+.nav-link:hover {
+  color: var(--mainBlack);
+}
