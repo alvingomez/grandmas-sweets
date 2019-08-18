@@ -33,4 +33,11 @@ body {
 
 .nav-link:hover {
   color: var(--mainBlack);
+  transform: scaley(2);
 }
+
+.cart-info_icon {
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+
