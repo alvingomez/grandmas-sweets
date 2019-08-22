@@ -59,3 +59,7 @@ body {
  .cart-info:hover .cart-info_icon {
   color: var(--mainWhite);
 }
+
+.max-height{
+ min-height: 100vh;
+}
