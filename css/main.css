@@ -15,6 +15,29 @@ body {
   color: var(--mainBlack);
 }
 
+/*global styles*/
+.btn_pink {
+  color: var(--mainPink) !important;
+  border-color:var(--mainPink)!important;
+}
+
+.btn-black{
+  color:var(--mainBlack) !important;
+  border-color: var(mainBlack) !important;
+}
+
+.btn-black:hover{
+  color: var(--mainPink)!important;
+  background: var(--mainBlack)!important;
+}
+
+.btn-pink:hover{
+  color: var(--mainPink);
+  background: var(--mainBlack);
+}
+
+
+
 /*nav links*/
 .navbar-toggler {
   outline: none! important
