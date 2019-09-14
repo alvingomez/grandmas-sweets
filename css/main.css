@@ -187,3 +187,21 @@ body {
 .store-item-icon:hover{
   color: var(--mainWhite);
 }
+
+/*services*/
+.services {
+  color:var(--mainWhite);
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/servicesBcg.jpeg");
+  background-position: center; 
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat; 
+  position: relative;
+}
+.service-title{
+  letter-spacing:0.5rem;
+}
+
+.service-text {
+  word-spacing:0.5rem;
+}
