@@ -16,14 +16,15 @@ body {
 }
 
 /*global styles*/
-.btn_pink {
+.btn-pink {
   color: var(--mainPink) !important;
   border-color:var(--mainPink)!important;
+  
 }
 
 .btn-black{
   color:var(--mainBlack) !important;
-  border-color: var(mainBlack) !important;
+  border-color: var(--mainBlack) !important;
 }
 
 .btn-black:hover{
@@ -32,8 +33,8 @@ body {
 }
 
 .btn-pink:hover{
-  color: var(--mainPink);
-  background: var(--mainBlack);
+  color: var(--mainBlack)!important;
+  background: var(--mainPink)!important;
 }
 
 
@@ -206,3 +207,4 @@ body {
 .service-text {
   word-spacing:0.5rem;
 }
+
